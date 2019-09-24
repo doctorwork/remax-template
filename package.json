@@ -4,7 +4,9 @@
   "description": "remax based app",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dev:weapp": "npm run build:weapp -- -w",
+    "build:weapp": "remax build -t wechat"
   },
   "author": "",
   "license": "ISC",
