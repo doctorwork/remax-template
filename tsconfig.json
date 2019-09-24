@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "lib": ["es2015", "dom"],
+    "jsx": "react",
+    "outDir": "lib",
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
