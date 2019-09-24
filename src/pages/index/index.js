@@ -1,6 +1,8 @@
 import React from 'react';
-import { View } from 'remax/base';
+import { View, Text } from 'remax/base';
 
 export default props => {
-  return <div></div>;
+  return <View>
+    <Text>index</Text>
+  </View>;
 };

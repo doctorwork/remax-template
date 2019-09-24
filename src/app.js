@@ -1,5 +1,5 @@
 /***/
-import React, { Component } from 'react';
+import * as React from 'react';
 import { View } from 'remax/base';
 import dvaApp from './dva';
 
