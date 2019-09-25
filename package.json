@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@remax/dva": "^1.0.0-beta.2",
+    "babel-eslint": "^10.0.3",
     "dva-loading": "^3.0.14",
     "react": "^16.9.0",
     "remax": "^1.1.0"
@@ -20,9 +21,6 @@
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
     "eslint": "^6.4.0",
-    "eslint-config-prettier": "^6.3.0",
-    "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-react": "^7.14.3",
     "husky": "^3.0.5",
     "jest": "^24.9.0",
     "lint-staged": "^9.3.0",
@@ -44,6 +42,11 @@
     "*.{md,js,jsx}": [
       "prettier --write",
       "git add"
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
     ]
   }
 }

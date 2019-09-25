@@ -1,0 +1,19 @@
+{
+  "parser": "babel-eslint",
+  "globals": {
+    "App": true
+  },
+  "parserOptions": {
+    // object spread requires ecma 9
+    // or use other parser: @typescript-eslint/parser
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "no-case-declarations": [0],
+    "require-atomic-updates": [0]
+  }
+}
