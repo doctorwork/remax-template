@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "*": ["*"],
+      "@/*": ["./src/*"],
+      "remax/base": ["./node_modules/remax/h5"]
+    }
+  }
+}

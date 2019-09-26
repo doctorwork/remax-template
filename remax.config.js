@@ -19,6 +19,6 @@ module.exports = {
   },
   alias: {
     "remax/base": `./node_modules/remax/${target}`,
-    "brush-ui": "brush-ui"
+    "td-ui": "./src/components/td-ui/"
   }
 };
