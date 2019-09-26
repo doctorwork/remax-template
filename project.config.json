@@ -18,7 +18,7 @@
       "outputPath": ""
     }
   },
-  "appid": "",
+  "appid": "test",
   "miniprogramRoot": "dist/wechat/",
   "projectname": "Remax",
   "simulatorType": "wechat",

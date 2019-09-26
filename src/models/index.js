@@ -1,11 +1,9 @@
-// 内置 model
-const builltins = [];
+import baseModel from "./base";
+import businessModel from "./business";
 
-// 页面 model
-// babel 动态生成
-const pages = [];
+// import model from every page
 
 export default {
-  models: builltins.concat(pages),
+  models: [...baseModel, ...businessModel],
   hooks: {}
-}
+};
