@@ -1,14 +1,13 @@
 import React from "react";
-import { View, Input } from "remax/base";
 import { connect } from "@remax/dva";
+import { View, Text, Form } from "remax/base";
+import { Container, FormItem } from "@/components";
 
-export default connect()(props => {
-  const { dispatch } = props;
-  console.log("dispatch");
+export default connect()(() => {
   return (
-    <View>
-      <Input />
-      <Input />
-    </View>
+    <Container>
+      <FormItem label="GIT" />
+      <FormItem label="TOKEN" />
+    </Container>
   );
 });

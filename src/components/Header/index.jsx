@@ -1,5 +1,6 @@
 import React from "react";
-import { View } from "remax";
+import { View } from "remax/base";
+import "./styles.less";
 
 const PLATFORM = process.env.PLATFORM;
 
@@ -64,7 +65,7 @@ export default props => {
           {title}
         </Text>
       </View>
-      <View>{this.props.children}</View>
+      <View>{props.children}</View>
     </View>
   );
 };
