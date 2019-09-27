@@ -3,6 +3,11 @@
   "globals": {
     "App": true
   },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
   "parserOptions": {
     // object spread requires ecma 9
     // or use other parser: @typescript-eslint/parser
